@@ -1,0 +1,69 @@
+.cabecalhoMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.menu{
+    display: block;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.textoBlog{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.textoInicial{
+    font-size: 30px;
+}
+
+p, h1, h2, h3, time, summary, footer, a, li{
+    display: flex;
+    justify-items: center;
+    color: hsl(42, 97%, 43%);
+    text-decoration: none;
+}
+
+.posts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.footers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(0, 0%, 0%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.centerClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerIMGClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 40%;
+    right: 30% ;
+
+}
