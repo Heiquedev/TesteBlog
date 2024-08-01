@@ -67,3 +67,33 @@ p, h1, h2, h3, time, summary, footer, a, li{
     right: 30% ;
 
 }
+
+.centerIMGClass2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 38%;
+    right: 30% ;
+
+}
+
+.btnClass{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(42, 97%, 43%);
+    text-decoration: none;
+
+}
+
+
+.body{
+    background-color: rgb(255, 255, 255);
+}
+
+.bodypost{
+    background-color: rgba(94, 59, 45, 0.956);
+}
+
